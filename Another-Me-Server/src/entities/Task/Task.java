@@ -1,14 +1,11 @@
 package entities.Task;
 
-import java.util.ArrayList;
+import java.sql.Date;;
 
 public class Task {
 
- String sms;
- ArrayList<Task> completedTasks;
- ArrayList<Task> toDoTasks;
- ArrayList<Task> aplicationTasks;
- 
-
-	
+Date taskDate;
+Date endTimeDate;
+TaskTypes taskTypes;
+String taskText;
 }
