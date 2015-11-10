@@ -1,11 +1,15 @@
 package entities.Task;
 
-import java.sql.Date;;
+import java.sql.Date;
+import java.util.ArrayList;
+
+import entities.sms.SMS;
 
 public class Task {
-
+SMS sms;
 Date taskDate;
 Date endTimeDate;
-TaskTypes taskTypes;
+TaskType taskType;
 String taskText;
+ArrayList<PopUp> popUpMsgs;
 }

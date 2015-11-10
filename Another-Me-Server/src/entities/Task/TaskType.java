@@ -1,5 +1,5 @@
 package entities.Task;
 
-public enum TaskTypes {
+public enum TaskType {
 SMS
 }

@@ -15,6 +15,5 @@ TasksBank tasks ;
 GregorianCalendar calendarTasks;
 Gps gps;
 //class Survey ?;
-
 	
 }
