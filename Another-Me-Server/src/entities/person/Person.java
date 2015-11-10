@@ -3,16 +3,17 @@ package entities.person;
 import java.math.BigInteger;
 import java.util.GregorianCalendar;
 
+import entities.GPS.Gps;
 import entities.Task.TasksBank;
 
 public class Person {
-private String name;
+private String fullName;
 private BigInteger id;
 String mail;
 int age;
 TasksBank tasks ;
 GregorianCalendar calendarTasks;
-//class Gps;
+Gps gps;
 //class Survey ?;
 
 	
