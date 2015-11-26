@@ -1,11 +1,9 @@
 package entities.sms;
 
-import entities.person.Person;
 
 public class SMS {
-
-	Person sender;
+    SmsTemplates SmsTamplates;
 	String reciver;
 	StringBuilder msg;
-	
+	int senderId;
 }

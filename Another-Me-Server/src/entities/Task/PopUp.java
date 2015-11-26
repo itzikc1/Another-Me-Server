@@ -1,5 +1,11 @@
 package entities.Task;
 
+import entities.person.Person;
+
+
 public class PopUp {
-String msg;
+PopUpTemplates template;
+	String text;
+Person person;
+boolean trigger;
 }
