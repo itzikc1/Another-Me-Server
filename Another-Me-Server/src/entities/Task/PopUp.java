@@ -6,6 +6,6 @@ import entities.person.Person;
 public class PopUp {
 PopUpTemplates template;
 	String text;
-Person person;
+int userId;
 boolean trigger;
 }
