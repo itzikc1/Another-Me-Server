@@ -9,14 +9,14 @@ import entities.Task.PopUp;
 import entities.Task.TasksBank;
 
 public class Person {
-private String fullName;
-private BigInteger id;
-String mail;
-int age;
-TasksBank tasks ;
-GregorianCalendar calendarTasks;
-Gps gps;
-ArrayList<PopUp> popUpsList;
+	private String fullName;
+	private BigInteger id;
+	String mail;
+	int age;
+	TasksBank tasks ;
+	GregorianCalendar calendarTasks;
+	Gps gps;
+	ArrayList<PopUp> popUpsList;
 //class Survey ?;
 	
 }
