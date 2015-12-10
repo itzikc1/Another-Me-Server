@@ -1,6 +1,7 @@
 package entities.person;
 
 import java.math.BigInteger;
+import java.sql.Date;
 import java.util.ArrayList;
 import java.util.GregorianCalendar;
 
@@ -10,13 +11,12 @@ import entities.Task.TasksBank;
 
 public class Person {
 	private String fullName;
-	private BigInteger id;
+	private BigInteger personId;
 	String mail;
 	int age;
-	TasksBank tasks ;
-	GregorianCalendar calendarTasks;
+	Date DateTimeRegister;
+	TasksBank tasks;
 	Gps gps;
 	ArrayList<PopUp> popUpsList;
-//class Survey ?;
-	
+	DefaultSettings defaultSettings;   
 }
