@@ -1,5 +1,9 @@
 package server.model;
 
-public interface Model {
+import server.controller.GlobalModel;
+
+public interface Model extends GlobalModel {
+
+	
 
 }

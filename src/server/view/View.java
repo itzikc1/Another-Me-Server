@@ -1,5 +1,9 @@
 package server.view;
 
-public interface View {
+import server.controller.GlobalModel;
 
+public interface View extends GlobalModel{
+
+	
+	
 }
