@@ -1,4 +1,4 @@
-package test;
+package server.controller;
 
 import java.sql.Date;
 import java.util.ArrayList;
@@ -13,7 +13,7 @@ import entities.person.Person;
 import entities.sms.SMS;
 
 // facade
-public interface AdminQueries {
+public interface GlobalModel {
 
 	// ///////////////////////////set///////////////////////////////////////
 	public void addPerson(String name, int personId, String mail, int age);

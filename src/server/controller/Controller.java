@@ -1,5 +1,7 @@
 package server.controller;
 
-public interface Controller {
+public class Controller   {
+	
 
+	
 }
