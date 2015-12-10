@@ -10,7 +10,4 @@ public class SMS {
 	StringBuilder msg;
 	int senderId;// personId
 	Date DateTimeSend;
-	public SMS(int personId) {
-		this.senderId=personId;
-	}
 }
