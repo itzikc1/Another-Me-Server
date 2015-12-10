@@ -4,4 +4,4 @@ public interface Command {
 
 	void doCommand(Object args[]);
 	
-}
+}dsf
