@@ -17,6 +17,5 @@ public class Person {
 	Date DateTimeRegister;
 	TasksBank tasks;
 	Gps gps;
-	ArrayList<PopUp> popUpsList;
 	DefaultSettings defaultSettings;   
 }
